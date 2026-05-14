@@ -13,13 +13,26 @@
     },
     "./styles.css": "./src/styles.css"
   },
-  "sideEffects": ["**/*.css"],
-  "files": ["src", "README.md", "LICENSE", "CHANGELOG.md"],
-  "keywords": ["tsp", "trust-standard-protocol", "trustbadge", "react", "ai-governance"],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "tsp",
+    "trust-standard-protocol",
+    "trustbadge",
+    "react",
+    "ai-governance"
+  ],
   "homepage": "https://truststandardprotocol.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lexitsp/trustbadge-react"
+    "url": "git+https://github.com/lexitsp/trustbadge-react.git"
   },
   "author": "LexiCo AS <hello@lexico.no>",
   "peerDependencies": {
