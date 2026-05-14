@@ -8,4 +8,4 @@ material.
 
 For public alpha, the supported package line is:
 
-- `@lexitsp/trustbadge-react@0.2.0`
+- `@lexitsp/trustbadge-react@0.2.1`

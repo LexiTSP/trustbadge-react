@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 — 2026-05-14
+
+### Fixed
+- Publishes compiled ESM and declaration files under `dist/` for Node/npm consumers.
+- Updates the peer dependency to `@lexitsp/sdk@^3.0.0-alpha.5`.
+- Supersedes `0.2.0`, which exposed TSX source files in npm exports.
+
 ## 0.2.0 — 2026-04-30
 
 ### Added

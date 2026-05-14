@@ -3,7 +3,7 @@
 Charter §5 TrustBadge as a React component for AI outputs wrapped with
 [`@lexitsp/sdk`](https://www.npmjs.com/package/@lexitsp/sdk).
 
-> **Status:** 0.2.0 alpha. Tracking `@lexitsp/sdk@^3.0.0-alpha.4`.
+> **Status:** 0.2.1 alpha. Tracking `@lexitsp/sdk@^3.0.0-alpha.5`.
 
 ## Why
 
@@ -28,7 +28,7 @@ bun add @lexitsp/trustbadge-react @lexitsp/sdk
 # or: npm install @lexitsp/trustbadge-react @lexitsp/sdk
 ```
 
-Peer-deps: `react@>=18`, `react-dom@>=18`, `@lexitsp/sdk@^3.0.0-alpha.4`.
+Peer-deps: `react@>=18`, `react-dom@>=18`, `@lexitsp/sdk@^3.0.0-alpha.5`.
 
 Public docs: https://truststandardprotocol.org/docs
 

@@ -63,7 +63,7 @@ export interface Labels {
   checkDane: string;
   checkSignature: string;
 
-  // v3.0.0-alpha.4: structured alignment additions
+  // v3.0.0-alpha.5: structured alignment additions
   sectionRefusal: string;
   sectionFlags: string;
   sectionPolicy: string;

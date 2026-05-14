@@ -1,15 +1,15 @@
 {
   "name": "@lexitsp/trustbadge-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Charter §5 TrustBadge as a React component for AI outputs wrapped with @lexitsp/sdk.",
   "license": "MIT",
   "type": "module",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.ts",
-      "import": "./src/index.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./styles.css": "./src/styles.css"
   },
@@ -17,11 +17,15 @@
     "**/*.css"
   ],
   "files": [
-    "src",
+    "dist",
+    "src/styles.css",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"
   ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --out-dir dist --clean --external react --external react-dom --external @lexitsp/sdk"
+  },
   "keywords": [
     "tsp",
     "trust-standard-protocol",
@@ -38,10 +42,11 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@lexitsp/sdk": "^3.0.0-alpha.4"
+    "@lexitsp/sdk": "^3.0.0-alpha.5"
   },
   "devDependencies": {
-    "@lexitsp/sdk": "workspace:*",
+    "@lexitsp/sdk": "^3.0.0-alpha.5",
+    "tsup": "^8.5.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@types/react": "^19.0.2",

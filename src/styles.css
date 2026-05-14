@@ -290,7 +290,7 @@
   font-size: 0.75rem;
 }
 
-/* v0.2.0 — alignment refusal/flags/policy */
+/* v0.2.1 — alignment refusal/flags/policy */
 .tsp-refusal__label { font-weight: 600; color: var(--tsp-color-danger); }
 .tsp-refusal__reason { color: var(--tsp-color-text); }
 
