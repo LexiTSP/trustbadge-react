@@ -30,7 +30,7 @@ bun add @lexitsp/trustbadge-react @lexitsp/sdk
 
 Peer-deps: `react@>=18`, `react-dom@>=18`, `@lexitsp/sdk@^3.0.0-alpha.5`.
 
-Public docs: https://truststandardprotocol.org/docs
+Public docs: https://truststandardprotocol.com/docs
 
 ## Quick start
 
