@@ -24,7 +24,8 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts --out-dir dist --clean --external react --external react-dom --external @lexitsp/sdk"
+    "build": "tsup src/index.ts --format esm --dts --out-dir dist --clean --external react --external react-dom --external @lexitsp/sdk",
+    "test": "vitest run"
   },
   "keywords": [
     "tsp",
