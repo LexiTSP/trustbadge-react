@@ -1,7 +1,7 @@
 {
   "name": "@lexitsp/trustbadge-react",
   "version": "0.2.1",
-  "description": "Charter §5 TrustBadge as a React component for AI outputs wrapped with @lexitsp/sdk.",
+  "description": "React TrustBadge component for Trust Standard Protocol envelopes.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -36,7 +36,7 @@
   "homepage": "https://truststandardprotocol.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lexitsp/trustbadge-react.git"
+    "url": "git+https://github.com/LexiTSP/trustbadge-react.git"
   },
   "author": "LexiCo AS <hello@lexico.no>",
   "peerDependencies": {
