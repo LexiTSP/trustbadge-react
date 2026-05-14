@@ -1,0 +1,46 @@
+{
+  "name": "@lexitsp/trustbadge-react",
+  "version": "0.2.0",
+  "description": "Charter §5 TrustBadge as a React component for AI outputs wrapped with @lexitsp/sdk.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./styles.css": "./src/styles.css"
+  },
+  "sideEffects": ["**/*.css"],
+  "files": ["src", "README.md", "LICENSE", "CHANGELOG.md"],
+  "keywords": ["tsp", "trust-standard-protocol", "trustbadge", "react", "ai-governance"],
+  "homepage": "https://truststandardprotocol.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lexitsp/trustbadge-react"
+  },
+  "author": "LexiCo AS <hello@lexico.no>",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "@lexitsp/sdk": "^3.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "@lexitsp/sdk": "workspace:*",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "jsdom": "^26.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "bun": ">=1.0.0"
+  }
+}
