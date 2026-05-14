@@ -1,6 +1,6 @@
 {
   "name": "@lexitsp/trustbadge-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "React TrustBadge component for Trust Standard Protocol envelopes.",
   "license": "MIT",
   "type": "module",
@@ -42,10 +42,10 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@lexitsp/sdk": "^3.0.0-alpha.5"
+    "@lexitsp/sdk": "^3.0.0-alpha.6"
   },
   "devDependencies": {
-    "@lexitsp/sdk": "^3.0.0-alpha.5",
+    "@lexitsp/sdk": "^3.0.0-alpha.6",
     "tsup": "^8.5.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",

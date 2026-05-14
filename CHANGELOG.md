@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2 — 2026-05-14
+
+### Changed
+- Metadata-only alpha refresh for the canonical `truststandardprotocol.com` launch.
+- Updates npm package description and repository metadata to the public `LexiTSP/trustbadge-react` repository.
+- Tracks `@lexitsp/sdk@^3.0.0-alpha.6`; component behavior is unchanged from `0.2.1`.
+
 ## 0.2.1 — 2026-05-14
 
 ### Fixed
