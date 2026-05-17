@@ -31,6 +31,8 @@ bun add @lexitsp/trustbadge-react @lexitsp/sdk
 Peer-deps: `react@>=18`, `react-dom@>=18`, `@lexitsp/sdk@^3.0.0-alpha.6`.
 
 Public docs: https://truststandardprotocol.com/docs
+Browser verifier: https://truststandardprotocol.com/verify
+Canonical manifest: https://truststandardprotocol.com/.well-known/tsp-manifest.json
 
 ## Quick start
 
