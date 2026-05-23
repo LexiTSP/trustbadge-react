@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+- README rewritten to lead with the end-user value proposition and a
+  Next.js client-component snippet, cross-link to the new SDK
+  examples, and map each of the seven canonical panel fields to the
+  EU AI Act articles they speak to.
+- `SECURITY.md` and `CONTRIBUTING.md` aligned with the SDK's release
+  policy (canonical `tsp@lexico.no` channel, 90-day coordinated
+  disclosure, three non-negotiables for badge state honesty).
+
+### Notes
+- No component behavior or API changes from `0.2.2`. Consumers do not
+  need to upgrade.
+
 ## 0.2.2 — 2026-05-14
 
 ### Changed
