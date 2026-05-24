@@ -1,11 +1,22 @@
+<p align="center">
+  <a href="https://truststandardprotocol.com">
+    <img src="https://raw.githubusercontent.com/LexiTSP/tsp-site/main/public/brand/tsp-banner.svg" alt="Trust Standard Protocol — cryptographic proof for AI outputs" width="100%">
+  </a>
+</p>
+
+<p align="center"><strong>End-user TrustBadge React component</strong> &middot; <a href="https://www.npmjs.com/package/@lexitsp/trustbadge-react"><code>@lexitsp/trustbadge-react</code></a></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@lexitsp/trustbadge-react"><img src="https://img.shields.io/npm/v/@lexitsp/trustbadge-react/alpha?style=flat-square&color=F2B84B&labelColor=0A0E14&label=npm" alt="npm @lexitsp/trustbadge-react alpha"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-F2B84B?style=flat-square&labelColor=0A0E14" alt="License: MIT"></a>
+  <a href="https://github.com/LexiTSP/sdk"><img src="https://img.shields.io/badge/SDK-@lexitsp%2Fsdk-F2B84B?style=flat-square&labelColor=0A0E14" alt="Companion SDK"></a>
+  <a href="https://truststandardprotocol.com"><img src="https://img.shields.io/badge/site-truststandardprotocol.com-F2B84B?style=flat-square&labelColor=0A0E14" alt="Site"></a>
+</p>
+
 # `@lexitsp/trustbadge-react`
 
 > Drop-in React component for showing a [Trust Standard Protocol](https://truststandardprotocol.com)
 > receipt to end users. Pair it with [`@lexitsp/sdk`](https://github.com/LexiTSP/sdk).
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TrustBadge v0.2 alpha](https://img.shields.io/badge/TrustBadge-0.2--alpha-1E3A5F.svg)](https://truststandardprotocol.com/spec)
-[![npm](https://img.shields.io/badge/npm-@lexitsp%2Ftrustbadge--react@alpha-cb3837.svg)](https://www.npmjs.com/package/@lexitsp/trustbadge-react)
 
 `TrustBadge` is the end-user surface for TSP. When an AI answer carries a
 signed `TrustEnvelope`, the badge shows it to the person reading the
