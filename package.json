@@ -39,7 +39,7 @@
     "type": "git",
     "url": "git+https://github.com/LexiTSP/trustbadge-react.git"
   },
-  "author": "LexiCo AS <hello@lexico.no>",
+  "author": "Trust Standard Protocol <hello@truststandardprotocol.com>",
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",

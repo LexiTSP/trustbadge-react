@@ -7,10 +7,10 @@ treated as security issues.
 ## Reporting a vulnerability
 
 Please report suspected vulnerabilities **privately** to LexiCo AS at
-**security@lexico.no**. We will acknowledge within five working days.
+**security@truststandardprotocol.com**. We will acknowledge within five working days.
 
 For non-security matters (questions, pilots, integration support) use
-the general TSP channel at **tsp@lexico.no** instead.
+the general TSP channel at **hello@truststandardprotocol.com** instead.
 
 Do **not** open public GitHub issues for:
 

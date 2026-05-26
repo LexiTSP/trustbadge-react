@@ -176,7 +176,7 @@ need to wire it manually.
 ## Security
 
 See [`SECURITY.md`](./SECURITY.md). Report security issues privately to
-`tsp@lexico.no`. The badge renders whatever envelope it is given — be
+`security@truststandardprotocol.com`. The badge renders whatever envelope it is given — be
 careful what you publish in `process.systemPrompt.text` and
 `alignment.uncertainty` fields, as those can leak internal context.
 
@@ -186,4 +186,4 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## Licence
 
-MIT © LexiCo AS · <https://truststandardprotocol.com> · tsp@lexico.no
+MIT © LexiCo AS · <https://truststandardprotocol.com> · hello@truststandardprotocol.com
